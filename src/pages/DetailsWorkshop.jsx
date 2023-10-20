@@ -10,7 +10,6 @@ function DetailsWorkshop() {
         <div className="card-body">
           <h2 className="card-title">Doodle Art</h2>
           <div>
-            <div>รุ่นที่1</div>
             <div>สถานที่ อาคารวรณสรณ์ ชั้น12A</div>
           </div>
 

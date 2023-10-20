@@ -7,6 +7,7 @@ import Workshop from "../pages/Workshop";
 import DetailsWorkshop from "../pages/DetailsWorkshop";
 import Order from "../pages/Order";
 import Advert from "../pages/Advert";
+import OrderHistory from "../pages/OrderHistory";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "/detailsWorkshop", element: <DetailsWorkshop /> },
       { path: "/order", element: <Order /> },
       { path: "/advert", element: <Advert /> },
+      { path: "/orderHistory", element: <OrderHistory /> },
     ],
   },
 ]);

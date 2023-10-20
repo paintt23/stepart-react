@@ -15,13 +15,19 @@ function Order() {
             <div className="text-gray-600">Doodle Art รุ่นที่1</div>
             <div className="text-gray-600">Sat,23 Oct 2023,14:00 -17.00</div>
           </div>
+          <div className="py-10">
+            <input
+              type="file"
+              className="file-input file-input-bordered file-input-warning w-full max-w-xs "
+            />
+          </div>
         </div>
 
         <div className="">
           <div className="">
             <div className="card w-96 bg-base-100 h-60  shadow-xl ">
               <div className="  ">
-                <div className="bg-cyan-300 h-10 flex items-center justify-center rounded-t-2xl">
+                <div className="bg-[#BECDFF;] h-10 flex items-center justify-center rounded-t-2xl">
                   <h2 className="card-title text-[#5D5FEF] grid  items-center justify-center ">
                     สรุปการสั่งซื้อ
                   </h2>
@@ -43,7 +49,7 @@ function Order() {
                     </div>
                   </div>
                   <div className="flex items-center justify-center">
-                    <button className="bg-amber-300  px-6 py-1.5 rounded-xl ">
+                    <button className="bg-amber-400  px-12 py-1.5 rounded-xl ">
                       ชำระเงิน
                     </button>
                   </div>
